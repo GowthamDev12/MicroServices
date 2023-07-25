@@ -97,7 +97,7 @@ public class CountryController {
 			return new ResponseEntity<>(HttpStatus.CONFLICT);	
 		}
 	}
-
+	//deletecountry
 	@DeleteMapping(path = "/deletecountry/{id}")
 	public ResponseEntity<Country> deleteCountry(@PathVariable("id")int id)
 	{
